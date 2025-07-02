@@ -34,11 +34,11 @@ result = np.array_split(arr, 3)
 
 ## ■ 7.3 동작 원리
 
--  결합: np.concatenate(), np.vstack(), np.hstack(), np.stack()
+**-  결합:** np.concatenate(), np.vstack(), np.hstack(), np.stack()
 
--  분할: np.split(), np.vsplit(), np.hsplit(), np.array_split()
+**-  분할:** np.split(), np.vsplit(), np.hsplit(), np.array_split()
 
-✔️ 축(axis)을 기준으로 동작하며, shape가 일치해야 합니다.
+✔️ **축**(axis)을 기준으로 동작하며, **shape**가 일치해야 합니다.
 
 ---
 
@@ -51,7 +51,7 @@ result = np.array_split(arr, 3)
 | split        | 분할 축의 길이가 분할 수로 나누어져야 함 | View      |
 | array\_split | 나누어 떨어지지 않아도 분할 가능      | View/Copy |
 
-✔️ 결합은 메모리 복사, 분할은 대부분 stride 기반 View 반환
+✔️ **결합**은 메모리 복사, **분할**은 대부분 stride 기반 View 반환
 
 ---
 
