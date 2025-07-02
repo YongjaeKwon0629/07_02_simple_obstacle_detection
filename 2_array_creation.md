@@ -21,9 +21,9 @@
 
 ---  
 
--  배열 생성은 np.array(), np.zeros(), np.ones(), np.empty() 등을 통해 수행됩니다.
+-  배열 생성은 ```np.array()```, ```np.zeros()```, ```np.ones()```, ```np.empty()``` 등을 통해 수행됩니다.
 
--  배열 차원은 .shape, .ndim으로 확인 가능.
+-  배열 차원은 ```.shape```, ```.ndim```으로 확인 가능.
 
 -  메모리는 행 우선(C-order) 또는 열 우선(F-order)로 저장됩니다.
 
