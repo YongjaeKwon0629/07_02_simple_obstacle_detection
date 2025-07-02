@@ -69,6 +69,9 @@ stride_i: 해당 축에서 한 칸 이동 시 메모리에서 이동하는 바�
 ---
 
 ■ 1.6 코드 예시
+
+----
+
 ```python
 import numpy as np
 
