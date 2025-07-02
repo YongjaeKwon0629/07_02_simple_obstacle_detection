@@ -21,12 +21,14 @@ NumPy 배열은 메모리 상에서 stride(스트라이드) 값을 통해 다차
 
 ---  
 
-■ 1.3 동작 원리
+■ 1.3 동작 원리  
+
+---  
+
 NumPy 배열 메모리 구조 공식:
 
-ini
-코드 복사
-address = base_address + Σ (index_i * stride_i)
+
+```address = base_address + Σ (index_i * stride_i)```
 base_address: 배열 시작 주소
 
 index_i: 각 축의 인덱스
