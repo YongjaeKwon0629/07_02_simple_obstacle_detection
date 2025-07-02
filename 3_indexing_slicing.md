@@ -85,7 +85,8 @@ address = base_address + Σ (index_i * stride_i)
 | 불리언 인덱싱 | O      | X      | 중간    |
 --  
 
-✔️ 슬라이싱은 strides만 변경
+✔️ 슬라이싱은 strides만 변경  
+
 ✔️ 팬시 인덱싱은 새로운 배열 메모리 할당
 
 ■ 3.5 활용 사례
