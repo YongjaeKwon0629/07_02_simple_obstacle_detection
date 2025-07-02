@@ -17,21 +17,10 @@ copy_arr = arr.copy()
 
 ✔️ → View는 메모리 절약, Copy는 데이터 보호에 유리합니다.
 
-## 복사 (Copy)
-- 메모리 상 독립적인 새 배열 생성
-```python
-arr = np.array([1, 2, 3])
-copy_arr = arr.copy()
-```
-
-## 뷰 (View)
-- 원본 배열을 참조 (메모리 공유)
-```python
-view_arr = arr.view()
-```
+---
 
 ## 차이점 실습
-```python
+```
 arr[0] = 99
 print(copy_arr)  # → [1 2 3]
 print(view_arr)  # → [99 2 3]
