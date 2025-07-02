@@ -19,7 +19,7 @@ copy_arr = arr.copy()
 
 ---
 
-### 차이점 실습
+-차이점 실습
 ```
 arr[0] = 99
 print(copy_arr)  # → [1 2 3]
