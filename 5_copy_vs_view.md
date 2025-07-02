@@ -1,7 +1,21 @@
 # 배열 복사와 뷰 (Copy vs View)
 
-## 📌 개요
-NumPy 배열에서 copy와 view는 메모리 관리와 연산 속도에 큰 영향을 줍니다.
+## 📌 5.1 개념 정의
+
+-  View: 메모리 데이터를 공유하는 배열의 또 다른 시각화
+  
+```python
+view_arr = arr.view()
+```
+
+-  Copy: 메모리를 복제하여 완전히 독립적인 배열 생성
+  
+```
+arr = np.array([1, 2, 3])
+copy_arr = arr.copy()
+```
+
+✔️ → View는 메모리 절약, Copy는 데이터 보호에 유리합니다.
 
 ## 복사 (Copy)
 - 메모리 상 독립적인 새 배열 생성
