@@ -83,7 +83,7 @@ address = base_address + Σ (index_i * stride_i)
 | 슬라이싱    | X      | O      | 매우 빠름 |
 | 팬시 인덱싱  | O      | X      | 느림    |
 | 불리언 인덱싱 | O      | X      | 중간    |
---  
+
 
 ✔️ 슬라이싱은 strides만 변경  
 
