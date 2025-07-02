@@ -28,22 +28,28 @@ NumPy 배열은 메모리 상에서 stride(스트라이드) 값을 통해 다차
 NumPy 배열 메모리 구조 공식:
 
 
-```address = base_address + Σ (index_i * stride_i)```
+```address = base_address + Σ (index_i * stride_i)```  
+  
 base_address: 배열 시작 주소
-
+  
 index_i: 각 축의 인덱스
-
+  
 stride_i: 해당 축에서 한 칸 이동 시 메모리에서 이동하는 바이트 수
-
+  
 → 다차원 배열도 물리적으로는 1차원 선형 메모리에 저장되며, stride가 논리적 차원을 제공합니다.
+  
+■ 1.4 수학적 원리 및 메모리 구조  
 
-■ 1.4 수학적 원리 및 메모리 구조
-속성	설명
-shape	배열의 차원 구조 (예: (3, 4))
-strides	각 축의 바이트 간격
-ndim	배열 차원 수
-dtype	데이터 타입
-itemsize	요소 하나가 차지하는 바이트 수
+---  
+
+| 속성       | 설명                    |
+| -------- | --------------------- |
+| shape    | 배열의 차원 구조 (예: (3, 4)) |
+| strides  | 각 축의 바이트 간격           |
+| ndim     | 배열 차원 수               |
+| dtype    | 데이터 타입                |
+| itemsize | 요소 하나가 차지하는 바이트 수     |
+
 
 → 메모리는 C-order (행 우선) 또는 F-order (열 우선)로 배치됩니다.
 
