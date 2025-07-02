@@ -78,7 +78,8 @@ import numpy as np
 arr = np.array([[1, 2, 3], [4, 5, 6]])
 print("배열:\n", arr)
 print("Shape:", arr.shape)
-print("Strides:", arr.strides)```
+print("Strides:", arr.strides)
+```
 
 ---
 
@@ -90,7 +91,8 @@ print("Strides:", arr.strides)```
  [[1 2 3]
  [4 5 6]]
 Shape: (2, 3)
-Strides: (24, 8)```
+Strides: (24, 8)
+```
 
 ---
 
