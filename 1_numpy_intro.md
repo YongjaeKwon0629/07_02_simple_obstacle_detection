@@ -87,7 +87,8 @@ print("Strides:", arr.strides)
 
 ---
 
-```배열:
+```
+배열:
  [[1 2 3]
  [4 5 6]]
 Shape: (2, 3)
